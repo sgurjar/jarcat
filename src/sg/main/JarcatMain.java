@@ -7,8 +7,8 @@ public class JarcatMain {
 
     public static void main(String args[]) throws Exception {
         if(args.length < 2) {
-            System.out.println("usage: java JarCat <jarfile> <path_of_jarfile_entry>");
-            System.out.println("example: java JarCat myjar.jar \"META-INF/MANIFEST.MF\"");
+            System.out.println("usage: java -jar jarcat.jar <jarfile> <path_of_jarfile_entry>");
+            System.out.println("example: java -jar jarcat.jar myjar.jar \"META-INF/MANIFEST.MF\"");
             return;
         }
         String filename = args[0];
